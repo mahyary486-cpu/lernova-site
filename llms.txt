@@ -1,10 +1,10 @@
 # Lernova
 
-> Lernova is an Android learning app with AI-led classes for grades 1 to 12, fixed practice exams with personal AI feedback, and live rooms for instructors.
+> Lernova is an Android learning app with AI-led classes for grades 10 to 12, fixed practice exams with personal AI feedback, and live rooms for instructors.
 
 ## What Lernova offers
 
-- AI classes by grade: a weekly schedule for grades 1 to 12, one topic per day, a class every 2 hours, all times in New York time.
+- AI classes by grade: a weekly schedule for grades 10 to 12, one topic per day, a class every 2 hours, all times in New York time.
 - A full AI lesson: video, written explanation read aloud, quiz, results with explanations, personal feedback, questions and summary.
 - Similar exams: fixed questions, 10 to 50 per exam, split evenly into easy, medium and hard; score out of 100; a worked explanation for every answer; personal AI analysis.
 - Live rooms: instructors create rooms and share invite links; guests can join; public rooms can be browsed by category or topic.
