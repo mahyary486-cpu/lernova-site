@@ -1,16 +1,18 @@
 # Lernova
 
-> Lernova is an Android learning app with AI-led classes for grades 10 to 12, fixed practice exams with personal AI feedback, and live rooms for instructors.
+> Lernova is an Android learning app with AI-led lessons, fixed practice exams with personal AI feedback, teacher-made exams from a PDF shared by code, and live rooms for instructors.
 
 ## What Lernova offers
 
-- AI classes by grade: a weekly schedule for grades 10 to 12, one topic per day, a class every 2 hours, all times in New York time.
-- A full AI lesson: video, written explanation read aloud, quiz, results with explanations, personal feedback, questions and summary.
-- Similar exams: fixed questions, 10 to 50 per exam, split evenly into easy, medium and hard; score out of 100; a worked explanation for every answer; personal AI analysis.
-- Live rooms: instructors create rooms and share invite links; guests can join; public rooms can be browsed by category or topic.
-- Languages: uses the device language by default; English, Persian, Arabic, Spanish, French, German, Turkish, Russian, Chinese and Hindi.
-- AI assistant: Gemini works inside the app. ChatGPT and Claude are coming soon.
+- AI classes by grade: a weekly schedule, one topic per day, a class every 2 hours, all times in New York time.
+- A full AI lesson: written explanation read aloud, quiz, results with explanations, personal feedback, questions and summary.
+- Practice exams: fixed questions, 10 to 50 per exam, split evenly into easy, medium and hard; a worked explanation for every answer; personal AI analysis.
+- Exams from teachers: a teacher uploads a PDF of questions, the app turns it into 4-option questions, the teacher checks the answers and sets the date, hour and duration, then shares a code. Students join with the code and the exam opens at the scheduled time.
+- Teacher tools: create a named room (shown as a hashtag) with a join code; keep a day and hour schedule on the phone.
+- Live rooms: guests can join with a code; public rooms can be browsed; viewers can request a turn to speak and the host admits them into one of 12 speaking seats.
+- Languages: uses the device language by default; content in another language is translated automatically; English, Persian, Arabic, Spanish, French, German, Turkish, Russian, Chinese and Hindi.
+- AI assistant: Gemini works inside the app. ChatGPT and Claude open as separate apps with the request copied.
 
 ## Status
 
-Grade 10 Geometry exams are available first. Voice and video calling in rooms and more exam topics are coming soon.
+Grade 10 Geometry and Iran grade 9 Sets (Persian) exams are available. Voice and video calling in rooms, clickable invite links and more exam topics are coming soon.
