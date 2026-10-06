@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join a Lernova room</title>
+<style>
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#120b24;color:#fff;font-family:system-ui,sans-serif;text-align:center}
+main{max-width:420px;padding:28px}
+h1{font-size:22px;margin:0 0 6px}
+.code{font-size:40px;letter-spacing:8px;font-weight:700;color:#39ff14;margin:18px 0}
+button{background:#7c4dff;color:#fff;border:0;border-radius:12px;padding:12px 20px;font-size:16px}
+ol{text-align:left;color:#cfc8e8;line-height:1.8}
+</style>
+</head>
+<body>
+<main>
+<h1>Join a Lernova room</h1>
+<p>Your teacher invited you. This is your room code:</p>
+<div class="code" id="code">------</div>
+<button id="copy">Copy the code</button>
+<ol>
+<li>Open the Lernova app</li>
+<li>Choose Student login</li>
+<li>Tap Join a room with a code</li>
+<li>Paste the code and join</li>
+</ol>
+</main>
+<script>
+var c=(new URLSearchParams(location.search).get('code')||'').toUpperCase();
+if(!/^[A-Z0-9]{4,10}$/.test(c)){c='------';}
+document.getElementById('code').textContent=c;
+document.getElementById('copy').onclick=function(){if(c!=='------'&&navigator.clipboard){navigator.clipboard.writeText(c);this.textContent='Copied';}};
+</script>
+</body>
+</html>
